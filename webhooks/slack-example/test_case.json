@@ -1,0 +1,104 @@
+{
+    "version": "2.0",
+    "routeKey": "$default",
+    "rawPath": "/path/to/resource",
+    "rawQueryString": "parameter1=value1&parameter1=value2&parameter2=value",
+    "cookies": [
+      "cookie1",
+      "cookie2"
+    ],
+    "headers": {
+      "Header1": "value1",
+      "Header2": "value1,value2"
+    },
+    "queryStringParameters": {
+      "parameter1": "value1,value2",
+      "parameter2": "value"
+    },
+    "requestContext": {
+      "accountId": "123456789012",
+      "apiId": "api-id",
+      "authentication": {
+        "clientCert": {
+          "clientCertPem": "CERT_CONTENT",
+          "subjectDN": "www.example.com",
+          "issuerDN": "Example issuer",
+          "serialNumber": "a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1",
+          "validity": {
+            "notBefore": "May 28 12:30:02 2019 GMT",
+            "notAfter": "Aug  5 09:36:04 2021 GMT"
+          }
+        }
+      },
+      "authorizer": {
+        "jwt": {
+          "claims": {
+            "claim1": "value1",
+            "claim2": "value2"
+          },
+          "scopes": [
+            "scope1",
+            "scope2"
+          ]
+        }
+      },
+      "domainName": "id.execute-api.us-east-1.amazonaws.com",
+      "domainPrefix": "id",
+      "http": {
+        "method": "POST",
+        "path": "/path/to/resource",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "192.168.0.1/32",
+        "userAgent": "agent"
+      },
+      "requestId": "id",
+      "routeKey": "$default",
+      "stage": "$default",
+      "time": "12/Mar/2020:19:03:58 +0000",
+      "timeEpoch": 1583348638390
+    },
+    "body": {
+      "end": {
+        "dateTime": "2024-09-19T07:00:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "start": {
+        "dateTime": "2024-09-19T06:55:00-04:00",
+        "timeZone": "America/New_York"
+      },
+      "status": "CONFIRMED",
+      "calendar": {
+        "calendar_key": "07b92c5a-245c-4cad-bcfa-9419ee964841",
+        "calendar_name": "Multiplos serviços"
+      },
+      "tag_list": [],
+      "attendees": [
+        {
+          "name": "Test User Name",
+          "email": "test_user@eagendas.com",
+          "phone": "+19942123468",
+          "person_key": "99c75918-ef8b-461f-8cb5-435c8d5432ab"
+        }
+      ],
+      "created_at": {
+        "dateTime": "2024-09-17T15:40:52.238-04:00",
+        "timeZone": "America/New_York"
+      },
+      "owner_user": "test@mupisystems.com.br",
+      "service_list": [
+        {
+          "service_key": "e98b62f6-e03b-422d-951c-84af0c75d602",
+          "service_name": "Product Demo"
+        }
+      ],
+      "appointment_key": "733d9fee-c3ce-41f6-a941-122b7f72dc4c"
+    },
+    "pathParameters": {
+      "parameter1": "value1"
+    },
+    "isBase64Encoded": false,
+    "stageVariables": {
+      "stageVariable1": "value1",
+      "stageVariable2": "value2"
+    }
+}

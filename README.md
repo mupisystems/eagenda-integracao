@@ -1,5 +1,19 @@
-# Guia de Integração da eAgenda
-Este repositório contém exemplos práticos de integração com a eAgenda, facilitando o desenvolvimento de soluções para gerenciar reservas e compromissos. Os exemplos aqui presentes abordam diversos cenários de uso e incluem implementação de chamadas à API, tratamento de respostas, e boas práticas de autenticação e segurança.
+# eAgenda Documentation
 
-## Objetivo
-O objetivo deste repositório é fornecer um ponto de partida para desenvolvedores que precisam integrar uma API de agendamento em suas aplicações, demonstrando as principais funcionalidades e como implementá-las de maneira eficiente.
+This README is available in other languages:
+* [Português (BR)](README.pt-BR.md)
+
+# eAgenda Integration Guide
+This repository contains practical examples of integrating with eAgenda, providing detailed instructions for efficiently managing bookings and appointments. The documentation includes various use cases, such as API calls, webhook handling, response processing, and best practices for authentication and security.
+
+## Purpose
+The purpose of this repository is to provide a starting point for developers looking to integrate the eAgenda scheduling API into their applications. In addition to practical examples of API calls, we also cover how to use webhooks to receive real-time notifications about important events, such as new appointments, changes, and cancellations. This way, you can implement the main functionalities effectively, ensuring secure and scalable integration.
+
+## Project Structure
+
+- `/webhooks`:  Contains examples of Webhook implementations.
+- `/api_v3`: Contains examples of API version 3 implementations.
+
+## How to Contribute
+
+Submit a suggestion for improvement through the link on [Atende Aqui](https://mupisys.atendeaqui.com.br/desenvolvimento) or create an issue in this repository.
